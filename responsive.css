@@ -1,0 +1,164 @@
+@media (max-width: 1199px) {
+  /* home section */
+  .home_img {
+    top: 5em;
+    left: 3em;
+    width: 28em;
+    height: 30em;
+  }
+  .home_img_div::before {
+    width: 74%;
+    height: 80%;
+  }
+  .home_card {
+    width: 44%;
+    padding: 1em;
+    left: 24em;
+    top: -19em;
+  }
+  .home_card p {
+    font-size: 1.2em;
+  }
+  .home_card h1 {
+    width: 6em;
+    font-size: 2.4em;
+  }
+
+  .home_card button {
+    margin: 0em 0;
+    padding: 1em 0;
+    width: 12em;
+  }
+
+  /* home section */
+
+  /* card section */
+
+  .Card_section::before {
+    height: 85%;
+  }
+  .Card_row {
+    margin: 4em 0;
+  }
+
+  .card_section_heading {
+    margin-top: -3em;
+  }
+  .card_section_card {
+    padding: 2em;
+  }
+
+  .card_section_divi i {
+    margin-bottom: 0.6em;
+  }
+
+  /* card section */
+
+  /* Card section 2 */
+  .card_container2_row {
+    padding-bottom: 2em;
+  }
+  .card_container2_card {
+    margin-top: 2em;
+  }
+  .card_container2_heading {
+    margin: 1em 0;
+  }
+  .card_container2_heading p {
+    width: 80%;
+  }
+
+  /* Card section 2 */
+}
+
+@media (max-width: 767px) {
+  /* home section */
+  .home_img {
+    top: 4em;
+    left: 0em;
+    width: 17em;
+    height: 20em;
+  }
+  .home_img_div::before {
+    width: 80%;
+    height: 90%;
+  }
+  .home_card {
+    width: 54%;
+    padding: 1em;
+    left: 10em;
+    top: -13em;
+  }
+  .home_card p {
+    font-size: 1em;
+  }
+  .home_card h1 {
+    width: 6em;
+    font-size: 1.6em;
+  }
+
+  .home_card button {
+    margin: 0em 0;
+    padding: 0.2em;
+    width: 8em;
+  }
+
+  /* home section */
+  /* card section */
+  .card_section_card h4 {
+    font-size: 1.8em;
+  }
+  .card_section_card p {
+    font-size: 1.2em;
+  }
+  .Card_div1,
+  .Card_div3 {
+    margin-top: 0em;
+  }
+  .Card_section::before {
+    height: 97%;
+  }
+  .Card_row {
+    margin: 0em 0;
+  }
+  .card_section_card a {
+    font-size: 1.4em;
+  }
+
+  .card_section_heading {
+    margin-top: -2em;
+    font-size: 3em;
+  }
+  .card_section_card {
+    padding: 2em;
+    margin-top: 2em;
+  }
+
+  .card_section_divi i {
+    margin-bottom: 0.6em;
+  }
+
+  /* card section */
+
+  /* Card section 2 */
+  .card_cotainer2_img2 {
+    width: 84%;
+  }
+  .card_container2_card h2 {
+    font-size: 2.4em;
+  }
+  .card_container2_card p {
+    font-size: 1.3em;
+  }
+  .card_container2_card a {
+    font-size: 1.6em;
+  }
+  .card_container2_heading {
+    margin: 1em 0;
+  }
+  .card_container2_heading p {
+    width: 100%;
+  }
+
+  /* Card section 2 */
+}
