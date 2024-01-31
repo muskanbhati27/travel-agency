@@ -72,6 +72,7 @@ body {
   border-radius: 2em;
   margin: 0.1em 0;
   width: 10em;
+  padding: 1em;
 }
 .home_card button:hover {
   color: hsl(0, 4%, 90%);
@@ -215,12 +216,225 @@ body {
   font-size: 3.2em;
   font-weight: 700;
 }
-.vacancies_Section_heading span {
-  width: 1em;
+.vacancies_Section_paragraph {
+  width: 30em;
+  color: hsl(0, 0%, 52%);
+  padding: 1.4em 0;
+  font-size: 1.1em;
   margin: auto;
-  border: 2px solid red;
+}
+.vacancies_Section_description {
+  font-size: 1.2em;
+  color: hsl(0, 0%, 43%);
+  width: 54em;
+  margin: auto;
+  font-weight: 550;
+  padding-bottom: 1.2em;
+}
+.vacancies_Section_heading button {
+  background-color: hsl(190.64deg 63.8% 56.67%);
+  color: white;
+  width: 12em;
+  padding: 1em;
+  border: none;
+  border-radius: 2em;
+  margin: 1.2em 0;
+}
+.vacancies_Section_heading button:hover {
+  color: hsl(0, 4%, 90%);
 }
 /* vacancies Section */
+/* vacancies img Section */
+.vacancies_section {
+  margin-top: 6em;
+}
+.vacancies_img {
+  object-fit: cover;
+  width: 56em;
+  height: 40em;
+  position: relative;
+  border-radius: 4em;
+}
+
+.vacancies_img_div::before {
+  border-radius: 4em;
+  position: absolute;
+  width: 84%;
+  height: 52%;
+  left: 14em;
+  top: -5em;
+  background-color: hsl(190.82deg 64.21% 81.37%);
+  content: " ";
+}
+.vacancies_card_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  top: -30em;
+  width: 96%;
+}
+.vacancies_img_card {
+  width: 46%;
+  background-color: white;
+  border-radius: 2em;
+  padding: 2em;
+}
+.vacancies_img_card h1 {
+  font-size: 2.4em;
+  margin: 0.4em 0;
+  color: hsl(192.67deg 47.37% 62.75%);
+  font-weight: 550;
+}
+.vacancies_card_paragraph {
+  color: hsl(0, 0%, 47%);
+  font-weight: 550;
+}
+.vacancies_card_p {
+  color: hsl(0, 0%, 47%);
+  font-weight: 550;
+  font-size: 1.1em;
+}
+.vacancies_card_p a {
+  color: hsl(0, 0%, 47%);
+  font-weight: 550;
+  font-size: 1.1em;
+  border-bottom: 2px solid hsl(0, 0%, 47%);
+}
+.vacancies_card_p a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid hsl(0, 1%, 25%);
+}
+
+.vacancies_img_card button {
+  background-color: hsl(190.64deg 63.8% 56.67%);
+  color: white;
+  width: 12em;
+  padding: 0.8em;
+  border: none;
+  border-radius: 2em;
+  margin: 1em 0;
+}
+.vacancies_img_card button:hover {
+  color: hsl(0, 4%, 90%);
+}
+/* vacancies img Section */
+
+/* Road travel section */
+.Road_Section {
+  background-color: hsl(190.64deg 63.8% 56.67%);
+  color: white;
+  margin-top: -20em;
+  padding-bottom: 4em;
+}
+.Road_Section_heading {
+  text-align: center;
+  font-size: 4em;
+  padding: 1.2em 0;
+}
+
+.Road_Section_img1 img {
+  border: 12px solid white;
+  border-radius: 2em;
+  object-fit: cover;
+  width: 85%;
+  height: 35em;
+}
+.Road_Section_img2 img {
+  border: 12px solid white;
+  border-radius: 2em;
+  object-fit: cover;
+  width: 90%;
+  height: 22em;
+}
+.Road_Section_img2_content {
+  margin-top: 4em;
+  width: 85%;
+}
+.Road_Section_img2_content p {
+  font-size: 1.1em;
+}
+
+.road_conent_link a {
+  color: white;
+  font-weight: 550;
+  font-size: 1.1em;
+  border-bottom: 2px solid white;
+}
+.road_conent_link a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid whitesmoke;
+}
+/* Road travel section */
+
+/* vacanciesn section 2 */
+.vacancies_section_2 {
+  margin-top: 11em;
+}
+
+.vacancies_Section2_img {
+  object-fit: cover;
+  width: 56em;
+  height: 40em;
+  position: relative;
+  border-radius: 4em;
+  left: 16em;
+}
+
+.vacancies_section2_img_div::before {
+  border-radius: 4em;
+  position: absolute;
+  width: 80%;
+  height: 52%;
+  left: 10em;
+  top: -6em;
+  background-color: hsl(190.82deg 64.21% 81.37%);
+  content: " ";
+}
+.vacancies_section2_card_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  text-align: center;
+  align-items: start;
+  position: relative;
+  top: -28em;
+  width: 96%;
+}
+.vacancies_Section2_img_card {
+  width: 40%;
+  background-color: white;
+  border-radius: 2em;
+  padding: 2em;
+}
+.vacancies_Section2_img_card h1 {
+  font-size: 2.4em;
+  margin: 0.4em 0;
+  color: hsl(192.67deg 47.37% 62.75%);
+  font-weight: 550;
+}
+.vacancies_section2_card_paragraph {
+  color: hsl(0, 0%, 47%);
+  font-weight: 550;
+  width: 96%;
+  margin: auto;
+}
+
+.vacancies_Section2_img_card button {
+  background-color: hsl(190.64deg 63.8% 56.67%);
+  color: white;
+  width: 12em;
+  padding: 0.8em;
+  border: none;
+  border-radius: 2em;
+  margin: 1.6em 0;
+}
+.vacancies_Section2_img_card button:hover {
+  color: hsl(0, 4%, 90%);
+}
+/* vacancies img Section */
+/* vacanciesn section 2 */
 
 /* end foooter section */
 .end_footer {

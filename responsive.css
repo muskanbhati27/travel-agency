@@ -69,6 +69,111 @@
   }
 
   /* Card section 2 */
+  /* vacancies Section */
+  .vacancies_Section_heading {
+    margin: 2em 0;
+  }
+
+  .vacancies_Section_description {
+    width: 35em;
+  }
+  .vacancies_Section_heading button {
+    margin: 1em 0;
+  }
+
+  /* vacancies Section */
+
+  /* vacancies img Section */
+  .vacancies_section {
+    margin-top: 5em;
+  }
+  .vacancies_img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .vacancies_img_div::before {
+    width: 76%;
+    height: 52%;
+    left: 12em;
+    top: -4em;
+  }
+  .vacancies_card_div {
+    top: -24em;
+    width: 98%;
+  }
+  .vacancies_img_card {
+    width: 50%;
+    padding: 1.2em;
+  }
+  .vacancies_img_card h1 {
+    font-size: 1.6em;
+    margin: 0.4em 0;
+  }
+
+  .vacancies_card_p {
+    font-size: 1.1em;
+  }
+  .vacancies_card_p a {
+    font-size: 1.1em;
+  }
+
+  .vacancies_img_card button {
+    width: 10em;
+    padding: 0.2em;
+
+    margin: 0.1em 0;
+  }
+
+  /* vacancies img Section */
+  /* Road travel section */
+  .Road_Section {
+    padding-bottom: 2em;
+  }
+  .Road_Section_heading {
+    font-size: 3em;
+    padding: 0.8em 0;
+  }
+
+  .Road_Section_img1 img {
+    border: 10px solid white;
+    width: 100%;
+  }
+  .Road_Section_img2 img {
+    border: 10px solid white;
+    width: 100%;
+  }
+  .Road_Section_img2_content {
+    margin-top: 2em;
+    width: 100%;
+  }
+
+  /* Road travel section */
+  /* vacanciesn section 2 */
+  .vacancies_section_2 {
+    margin-top: 10em;
+  }
+
+  .vacancies_Section2_img {
+    width: 80%;
+    left: 9em;
+  }
+
+  .vacancies_section2_img_div::before {
+    left: 4em;
+  }
+  .vacancies_section2_card_div {
+    width: 100%;
+  }
+  .vacancies_Section2_img_card {
+    width: 50%;
+  }
+
+  .vacancies_section2_card_paragraph {
+    width: 100%;
+  }
+
+  /* vacancies img Section */
 }
 
 @media (max-width: 767px) {
@@ -161,4 +266,154 @@
   }
 
   /* Card section 2 */
+  /* vacancies Section */
+  .vacancies_Section_heading {
+    margin: 2em 0;
+  }
+  .vacancies_Section_heading h1 {
+    font-size: 3em;
+  }
+
+  .vacancies_Section_description {
+    width: 21em;
+    font-size: 1.1em;
+  }
+  .vacancies_Section_heading button {
+    margin: 1em 0;
+  }
+  .vacancies_Section_paragraph {
+    width: 21em;
+    font-size: 1.1em;
+  }
+
+  /* vacancies Section */
+
+  /* vacancies img Section */
+  .vacancies_section {
+    margin-top: 3em;
+  }
+  .vacancies_img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .vacancies_img_div::before {
+    width: 78%;
+    height: 49%;
+    left: 4em;
+    top: -3em;
+  }
+  .vacancies_card_div {
+    top: -13em;
+    width: 90%;
+  }
+  .vacancies_img_card {
+    width: 62%;
+    padding: 1em;
+    /* display: none; */
+  }
+  .vacancies_img_card h1 {
+    font-size: 1.1em;
+    margin: 0.4em 0;
+  }
+  .vacancies_card_paragraph {
+    font-size: 0.6em;
+    /* display: none; */
+  }
+  .vacancies_card_p {
+    font-size: 1em;
+  }
+  .vacancies_card_p a {
+    font-size: 1.1em;
+  }
+
+  .vacancies_img_card button {
+    width: 7em;
+    padding: 0.2em;
+
+    margin: 0.1em 0;
+  }
+
+  /* vacancies img Section */
+
+  /* Road travel section */
+  .Road_Section {
+    margin-top: -10em;
+    padding-bottom: 1em;
+  }
+  .Road_Section_heading {
+    font-size: 2.8em;
+    padding: 0.6em 0;
+  }
+
+  .Road_Section_img1 img {
+    border: 10px solid white;
+    width: 100%;
+  }
+  .Road_Section_img2 img {
+    border: 10px solid white;
+    margin-top: 2em;
+    width: 100%;
+  }
+  .Road_Section_img2_content {
+    margin-top: 1em;
+    padding: 0.4em;
+    width: 100%;
+  }
+
+  /* Road travel section */
+  /* vacanciesn section 2 */
+  .vacancies_section_2 {
+    margin-top: 5em;
+  }
+
+  .vacancies_Section2_img {
+    width: 80%;
+    left: 4em;
+    height: 24em;
+  }
+
+  .vacancies_section2_img_div::before {
+    left: 2em;
+    top: -3em;
+    width: 73%;
+  }
+  .vacancies_section2_card_div {
+    width: 100%;
+    top: -15em;
+  }
+  .vacancies_Section2_img_card {
+    width: 60%;
+    padding: 0.8em;
+  }
+  .vacancies_Section2_img_card h1 {
+    font-size: 1.4em;
+    margin: 0.6em 0;
+  }
+  .vacancies_section2_card_paragraph {
+    width: 100%;
+  }
+  .vacancies_Section2_img_card button {
+    margin: 0.8em;
+    width: 9em;
+    padding: 0.4em;
+  }
+
+  /* vacancies img Section */
+}
+@media (max-width: 360px) {
+  /* vacancies Section */
+  .vacancies_Section_heading {
+    margin: 2em 0;
+  }
+
+  .vacancies_Section_description {
+    width: 19em;
+  }
+
+  .vacancies_Section_paragraph {
+    width: 19em;
+  }
+
+  /* vacancies Section */
 }
